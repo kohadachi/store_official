@@ -23,7 +23,7 @@ export const App: React.FC = () => {
       .then((res) => res.json())
       .then((json) => {
         console.log(json);
-        setData(json);
+        // setData(json);
       });
   };
 
