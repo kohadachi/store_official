@@ -1,11 +1,9 @@
-import React, { useContext, useState, useEffect } from "react";
-import InstagramLogin, { InstagramLoginState } from "react-instagram-oauth";
-// import InstagramLogin from "react-instagram-login";
-import logo from "./logo.svg";
+import React, { useState, useEffect } from "react";
+import InstagramLogin from "react-instagram-oauth";
 import "./App.css";
 
 export const App: React.FC = () => {
-  const [data, setData] = useState<any>();
+  // const [data, setData] = useState<any>();
   const fetchFacebookApiToken = () => {
     console.log("fetch");
 
